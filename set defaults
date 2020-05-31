@@ -22,8 +22,7 @@ parser.set_defaults(datadir='data',
                         dropout=0.0,
                         method='base',
                         name_suffix='',
-                        assign_ratio=0.1,
-                        num_pool=2
+                        assign_ratio=0.1
                        )
 # DD dataset
 # Set2Set GCN encoder
@@ -47,10 +46,9 @@ parser.set_defaults(datadir='data',
                         num_classes=2,
                         num_gc_layers=3,
                         dropout=0.0,
-                        method='base',
+                        method='base-set2set',
                         name_suffix='',
-                        assign_ratio=0.1,
-                        num_pool=2
+                        assign_ratio=0.1
                        )
                        
 # DD dataset
@@ -105,8 +103,7 @@ parser.set_defaults(datadir='data',
                         dropout=0.0,
                         method='base',
                         name_suffix='',
-                        assign_ratio=0.1,
-                        num_pool=2
+                        assign_ratio=0.1
                        )
 # Enzymes dataset
 # Set2Set GCN encoder
@@ -130,10 +127,9 @@ parser.set_defaults(datadir='data',
                         num_classes=6,
                         num_gc_layers=3,
                         dropout=0.0,
-                        method='base',
+                        method='base-set2set',
                         name_suffix='',
-                        assign_ratio=0.1,
-                        num_pool=2
+                        assign_ratio=0.1
                        )
                        
 # Enzymes dataset
